@@ -1,0 +1,76 @@
+---
+title: "Getting to know RStudio - Practice"
+format: pdf
+editor: visual
+---
+
+```{r}
+knitr::opts_chunk$set(tidy.opts = list(width.cutoff = 70), tidy = TRUE)
+```
+
+## Your turn!
+
+Here is where you will practice writing some code and then rendering and submitting the document containing your code. Try out the following problems, and then follow the instructions at the end to render and submit the document.
+
+1.  Let's try doing some basic computations. In the code blocks below try computing the sum of 1 and 2, followed by the product of 3 and 4 (these should each be done on separate lines of code). For reference, addition is done using the normal `+` symbol and multiplication is done using the asterisk `*` symbol. Make sure to run the code block to see the results!
+
+```{r}
+
+```
+
+2.  Try creating a comment in the code block below; it can say whatever you want. To write a comment, type the `#` symbol and then write whatever you want directly after the `#` (there is an example in problem 8). Comments are very useful for describing what your code is doing! Run the code block and notice that your comment does not print out below the code block, meaning that R did not actually execute any code.
+
+```{r}
+
+```
+
+3.  Let's try creating a vector using the `c()` function. Type the following into the code block below and run the code block by pressing the green arrow: `vec <- c(4,8,16)`. You should see a new variable show up in the environment pane on the top right.
+
+```{r}
+
+```
+
+4.  Let's try displaying the vector that we created in the previous step. Do this by typing `vec` into the code block below and pressing the green arrow. You should see the values that are in the vector displayed below the code block.
+
+```{r}
+
+```
+
+5.  Let's practice using the **Help** files. In the **Console** (bottom left pane) next to the `>`, type `help("sqrt")` and press enter. Another way to access the help files is by first typing a ? and then the name of the function you want documentation for (for example, `?sqrt`). These two methods do the exact same thing, so pick which one you prefer. After running one of the two commands listed above, you should see a help file show up in the bottom right corner telling you what the `sqrt()` function does. In the space below, give a brief explanation of what the function `sqrt()` does.
+
+***Your answer:***
+
+6.  Let's try out the `sqrt()` function that we learned about in the previous step. Try typing `sqrt(36)` into the code block below and running the code block with the green arrow. (Does it do what you think it should?)
+
+    ```{r}
+
+    ```
+
+7.  What will happen if we apply the `sqrt()` function to something that is not a single number? Try typing `sqrt(vec)` into the code block below and running the code block with the green arrow. It should display the square roots of the three numbers contained in the vector `vec`.
+
+```{r}
+
+```
+
+8.  The following code has an error in it. Try running the code block to see what happens. You should see a red error! You are going to run into a lot of errors in this class, but they are meant to help you, not scare you. All it means is that the computer doesn't understand what is written. **Keep this in mind:** programming languages are very smart in that they can allow you to do very powerful things, but they can also be very dumb because they won't understand what you want them to do if you are not completely precise.\
+    \
+    Let's help R understand what we want it to do. You should see in the code block below a comment telling us what the code is meant to do. Try to fix the code so that it no longer has an error; make sure it no longer has an error by running the code block.
+
+```{r}
+# Taking the square root of 121
+srt(121)
+```
+
+9.  Now that we have gotten some practice writing some code in RStudio, let's render the document and submit it on Canvas.
+
+    a.  Make sure that your file does not have any errors in it! If it does, the document will not render, so make sure you fix any errors before submitting.
+
+    b.  Towards the top left of the RStudio window, you will see a blue arrow and the word "**Render**". Click this. You will see a lot of text show up in the **Background Jobs** pane below. This is RStudio turning your .qmd file into a pdf!
+
+    c.  Once the rendering is complete, you will see a new pdf file in the **"Files"** pane in the lower right pane of RStudio.
+
+    d.  Locate the document you want to download and click the check box next to the file name, then select the "**More**" option from the top of the "**Files**"pane (blue gear icon), and then select "**Export**" and then "**Download**".
+
+    e.  The file should be downloaded to your downloads folder. You should now be able to go into **Canvas** and upload the pdf and submit it.
+
+That's it! You have now rendered and submitted your first document using RStudio!
