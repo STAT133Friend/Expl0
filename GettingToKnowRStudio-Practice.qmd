@@ -42,9 +42,9 @@ Here is where you will practice writing some code and then rendering and submitt
 
 6.  Let's try out the `sqrt()` function that we learned about in the previous step. Try typing `sqrt(36)` into the code block below and running the code block with the green arrow. (Does it do what you think it should?)
 
-    ```{r}
+```{r}
 
-    ```
+```
 
 7.  What will happen if we apply the `sqrt()` function to something that is not a single number? Try typing `sqrt(vec)` into the code block below and running the code block with the green arrow. It should display the square roots of the three numbers contained in the vector `vec`.
 
@@ -58,7 +58,7 @@ Here is where you will practice writing some code and then rendering and submitt
 
 ```{r}
 # Taking the square root of 121
-srt(121)
+# srt(121)
 ```
 
 9.  Now that we have gotten some practice writing some code in RStudio, let's render the document and submit it on Canvas.
@@ -67,10 +67,12 @@ srt(121)
 
     b.  Towards the top left of the RStudio window, you will see a blue arrow and the word "**Render**". Click this. You will see a lot of text show up in the **Background Jobs** pane below. This is RStudio turning your .qmd file into a pdf!
 
-    c.  Once the rendering is complete, you will see a new pdf file in the **"Files"** pane in the lower right pane of RStudio.
+    c.  **Note:** You may get a box that pops up saying that the popup has been blocked. You can ignore this message - the PDF was still created.
 
-    d.  Locate the document you want to download and click the check box next to the file name, then select the "**More**" option from the top of the "**Files**"pane (blue gear icon), and then select "**Export**" and then "**Download**".
+    d.  Once the rendering is complete, you will see a new pdf file in the **"Files"** pane in the lower right pane of RStudio.
 
-    e.  The file should be downloaded to your downloads folder. You should now be able to go into **Canvas** and upload the pdf and submit it.
+    e.  Locate the document you want to download and click the check box next to the file name, then select the "**More**" option from the top of the "**Files**"pane (blue gear icon), and then select "**Export**" and then "**Download**".
+
+    f.  The file should be downloaded to your downloads folder. You should now be able to go into **Canvas** and upload the pdf and submit it.
 
 That's it! You have now rendered and submitted your first document using RStudio!
