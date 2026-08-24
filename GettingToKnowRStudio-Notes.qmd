@@ -10,7 +10,7 @@ Welcome to Stat 133! The system that you are currently working in is called RStu
 
 As the course progresses, you are encouraged to explore beyond what we discuss; a **willingness to experiment** will make you a much better scientist and researcher (and programmer!). Before we get to that stage, however, you need to build some competence in R. Just like learning any spoken language, we need to learn some of the "vocabulary" and "syntax" associated to the R language. We will begin with some of the fundamental building blocks of R and Rstudio: the interface, data types, variables, importing data, and plotting data. We will then move into performing statistical tests, and you will even perform your own statistical study!
 
-R is widely used by the scientific community as a no-cost alternative to expensive commercial software packages like SPSS and MATLAB. It is both a statistical software analysis system and a programming environment for developing scientific applications. Scientists routinely make available for free R programs they have developed that might be of use to others. Hundreds of packages can be downloaded for all types of scientific computing applications.
+R is widely used by the scientific community as a no-cost alternative to expensive commercial software packages like SPSS and MATLAB. It is both a statistical software analysis system and a programming environment for developing scientific applications. Scientists routinely make available for free R programs they have developed that might be of use to others. Thousands of packages can be downloaded for all types of scientific computing applications.
 
 ## Exploring RStudio
 
